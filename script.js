@@ -15,8 +15,9 @@ const interval = setInterval(() => {
     bottomSentinelSecondChild.style.height = "calc(100% - 962px);";
   }
   iterations++;
-}, 400);
+  console.log(`iteration: ${iterations}`);
 
-if (iterations === 2) {
-  clearInterval(interval);
-}
+  if (iterations === 2) {
+    clearInterval(interval);
+  }
+}, 400);
