@@ -1,12 +1,12 @@
 body {
   background-color: black;
   color: white;
-  padding: 2em;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1);
   font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+  text-transform: none;
   color: rgb(255, 255, 255);
   text-transform: none;
   --background-base: #121212;
@@ -39,6 +39,10 @@ body {
   --decorative-subdued: #292929;
   box-sizing: border-box;
   transform: translateY(0px);
+}
+
+* {
+    box-sizing: border-box;
 }
 
 a {
@@ -127,6 +131,7 @@ a {
 .cOATDF {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .bgAPjd {
@@ -143,4 +148,35 @@ a {
     padding: 0px;
     transition: background-color 0.2s ease 0s;
     touch-action: manipulation;
+}
+
+.bDBeYC {
+    stroke-width: 1pt;
+}
+
+.bDBeYC [stroke="#181818"] {
+    stroke: var(--text-base,#000000);
+}
+.bDBeYC [fill="#181818"] {
+    fill: var(--text-base,#000000);
+}
+.bDBeYC * {
+    vector-effect: non-scaling-stroke;
+}
+
+.hhqOYA {
+    margin: 2px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.qnYVzttodnzg9WdrVQ1p {
+    bottom: 0;
+    overflow: hidden;
+}
+
+.lyVkg68L7ycnwyOcO3vj, .qnYVzttodnzg9WdrVQ1p {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
 }
